@@ -1,0 +1,42 @@
+<template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
+
+<style>
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+
+fieldset, c{ border:none; }
+
+img{display: block;}
+
+em{font-style:normal}
+
+h1,h2,h3,h4,h5,h6,b,strong,address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol ,li{ list-style:none; }
+
+body { color:#333; font:14px "-apple-system",Helvetica,"Microsoft YaHei","Ping Hei",Arial;background-color: #ffffff;}
+
+a { color:#666; text-decoration:none; }
+/*清除浮动*/
+.clear{clear:both}
+*{box-sizing:border-box}
+/* body,html{
+    height: 100%;
+    overflow: hidden;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+</style>
